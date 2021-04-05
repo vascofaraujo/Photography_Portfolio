@@ -1,0 +1,19 @@
+
+html, body{
+    margin: 0%;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/*CSS variables*/
+
+:root{
+    --primary-color: #281288;
+    --gradient-color: linear-gradient(90deg, #281288 0%, rgb(46, 29, 110) 100%);
+
+    /*font family variables*/
+    --roboto: "Roboto";
+}
