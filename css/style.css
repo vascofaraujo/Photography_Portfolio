@@ -1,6 +1,5 @@
-/*import fonts from fonts.css*/
-@import url(./fonts/css);
-
+/*import fonts from google*/
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500&display=swap');
 /*import css variables*/
 @import url(./partials/variables.css);
 
@@ -9,6 +8,10 @@ html, body {
     margin: 0%;
     box-sizing: border-box;
     overflow-x:hidden;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 16px;
+
+
 }
 
 /*//////////////////////////////////////////////////////////*/
@@ -26,7 +29,6 @@ html, body {
 }
 
 .header_area .main-menu .nav-item .nav-link{
-    font-family: var(--roboto);
     text-transform: uppercase;
     font-weight: 600;
     padding: 1rem;
@@ -73,32 +75,53 @@ html, body {
 
 /*end banner*/
 
+/*//////////////////////////////////////////////////////////*/
+/*GALLERY*/
+.project-area{
+    padding-top: 10%;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
 
+.project-area .container{
+    text-align: center;
+}
 
+.project-area h2 {
+    font-size: 38px;
+    font-weight: 600;
+    padding: 0 0 10px;
+    margin: 0;
+    line-height: 62px;
+    margin-top: 0;
+    text-transform: none;
+}
+
+.project-area .button-group button{
+    background: transparent;
+    border: none;
+    text-transform: none;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+
+.project-area .button-group button + button{
+    padding-left: 1rem;
+}
 
 
 /*//////////////////////////////////////////////////////////*/
 /*ABOUT ME*/
 .section.wb {
-    padding-top: 5rem;
+    padding-top: 10%;
     background-color: #ffffff;
     position: relative;
     height: 100%;
     width: 100%;
 }
 
-.message-box{
-    font: var(--roboto);
-}
-.message-box h4 {
-    text-transform: uppercase;
-    padding: 0;
-    margin: 0 0 5px;
-    font-weight: 600;
-    letter-spacing: 0.5px;
-    font-size: 15px;
-    color: #999;
-}
+
 
 .message-box h2 {
     font-size: 38px;
@@ -110,11 +133,7 @@ html, body {
     text-transform: none;
 }
 
-.message-box .lead {
-    padding-top: 10px;
-	font-size: 16px;
-	font-style: italic;
-	color: #999;
-	padding-bottom: 10px;
-	padding-left: 15px;
+
+.profile{
+    vertical-align: middle;
 }

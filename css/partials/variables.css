@@ -14,6 +14,5 @@ html, body{
     --primary-color: #29693f;
     --gradient-color: linear-gradient(90deg, #29693f 0%, #29693f 100%);
 
-    /*font family variables*/
-    --roboto: "Roboto";
+
 }
