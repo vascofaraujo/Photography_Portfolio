@@ -11,8 +11,8 @@ html, body{
 /*CSS variables*/
 
 :root{
-    --primary-color: #281288;
-    --gradient-color: linear-gradient(90deg, #281288 0%, rgb(46, 29, 110) 100%);
+    --primary-color: #29693f;
+    --gradient-color: linear-gradient(90deg, #29693f 0%, #29693f 100%);
 
     /*font family variables*/
     --roboto: "Roboto";
