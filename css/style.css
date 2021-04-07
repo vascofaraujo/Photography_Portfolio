@@ -1,5 +1,4 @@
-/*import fonts from google*/
-@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500&display=swap');
+
 /*import css variables*/
 @import url(./partials/variables.css);
 
@@ -7,23 +6,18 @@
 html, body {
     margin: 0%;
     box-sizing: border-box;
-    overflow-x:hidden;
-    font-family: 'Libre Franklin', sans-serif;
-    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
 
 
 }
+
 
 /*//////////////////////////////////////////////////////////*/
 /* start navigation*/
-.header_area{
-    background: url("/img/slide5.png") no-repeat scroll 0px 100% / cover transparent;
-    position: relative;
-    height: 100%;
-    width: 100%;
-}
+
 .header_area .main-menu .navbar{
-    padding: 0.1rem;
+    padding: 0rem;
     background: transparent;
     padding-right: 2rem;
 }
@@ -73,22 +67,49 @@ html, body {
 	color: ffffff;
 }
 
-/*end banner*/
-
-/*//////////////////////////////////////////////////////////*/
-/*GALLERY*/
-.project-area{
-    padding-top: 10%;
-    position: relative;
-    height: 100%;
+.navbar_fixed{
+    position: fixed;
     width: 100%;
+    top: -1px;
+    left: 0; right: 0;
+    background: var(--primary-color);
+    box-shadow: var(--box-shadow);
+    z-index: 999;
+    transition: background 1s ease;
 }
 
-.project-area .container{
+/*//////////////////////////////////////////////////////////*/
+/*HOME*/
+
+
+.section-home {
+    width: 100%;
+    height: 100%;
+    background: url("/img/slide5.png") no-repeat scroll 0px 100% / cover transparent;
+    position: relative;
+}
+
+.section-home .site-title h1{
+    padding-top: 10%;
+    font-weight: 500;
+    font-size: 3rem;
     text-align: center;
 }
 
-.project-area h2 {
+/*//////////////////////////////////////////////////////////*/
+/*GALLERY*/
+.section-gallery{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    padding-top: 5rem;
+
+}
+
+.section-gallery .container{
+    text-align: center;
+}
+
+.section-gallery h2 {
     font-size: 38px;
     font-weight: 600;
     padding: 0 0 10px;
@@ -98,32 +119,44 @@ html, body {
     text-transform: none;
 }
 
-.project-area .button-group button{
-    background: transparent;
+.section-gallery .button-group button{
+    background-color: transparent !important;;
     border: none;
+    font-size: 25px;
     text-transform: none;
     padding-top: 1rem;
-    padding-bottom: 3rem;
+    padding-bottom: 3rem; 
 }
 
-.project-area .button-group button + button{
+.section-gallery .button-group .active{
+    color: var(--primary-color);
+}
+.section-gallery .button-group button:hover{
+    color: var(--primary-color);
+}
+.section-gallery .button-group button + button{
     padding-left: 1rem;
 }
+.section-gallery .grid .our-project{
+    padding: 16px;
+}
+.section-gallery .grid .our-project .img a:hover img{
+    filter: brightness(1.01) drop-shadow(1px 8px 30px #000000);
+}
+
+
 
 
 /*//////////////////////////////////////////////////////////*/
 /*ABOUT ME*/
-.section.wb {
-    padding-top: 10%;
-    background-color: #ffffff;
+.section-wb {
+    padding-top: 7rem;
     position: relative;
-    height: 100%;
-    width: 100%;
+ 
+    background-color: #ffffff;
 }
 
-
-
-.message-box h2 {
+.section-wb h2 {
     font-size: 38px;
     font-weight: 600;
     padding: 0 0 10px;
@@ -133,7 +166,52 @@ html, body {
     text-transform: none;
 }
 
+/*//////////////////////////////////////////////////////////*/
+/* FOOTER */
 
-.profile{
-    vertical-align: middle;
+
+.footer-area{
+    padding-top: 7rem;
+    background-color:white;
+    font-size: 38px;
+}
+
+.footer-area h2 {
+    font-size: 38px;
+    font-weight: 600;
+    padding: 0 0 10px;
+    margin: 0;
+    line-height: 62px;
+    margin-top: 0;
+    text-transform: none;
+}
+
+.footer-area .site-logo{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    color: black;
+}
+
+.footer-area .social a>i{
+    font-size: 60px;
+    padding: 2rem;
+    color: black;
+}
+
+.footer-area .social a:hover>i{
+    color: var(--primary-color);
+}
+
+.footer-area .copyrights{
+    padding-top: 1rem;
+    padding-bottom: 0;
+    font-size: 10px;
+}
+
+.footer-area .links{
+    color: black;
+}
+
+.footer-area .links:hover{
+    color: var(--primary-color);
 }
