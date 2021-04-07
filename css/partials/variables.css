@@ -11,8 +11,9 @@ html, body{
 /*CSS variables*/
 
 :root{
-    --primary-color: #090030;
+    --primary-color: #1b9e52;
     --gradient-color: linear-gradient(90deg, #090030 0%, #090030 100%);
 
+    --secondary-color: #ffffff; 
 
 }
