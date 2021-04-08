@@ -20,15 +20,13 @@ html, body {
     padding-right: 2rem;
 
 }
-.navbar-nav{
-    transition: 5s;
-}
 .header_area .main-menu .nav-item .nav-link{
     text-transform: uppercase;
     font-weight: 600;
     padding: 1rem;
     color: rgb(0, 0, 0);
 }
+
 
 .header_area .main-menu .navbar-nav a:hover{
     color: white;
@@ -80,7 +78,7 @@ html, body {
 .heading h1{
 	color: white;
 	font-weight: 700;
-	font-size: 62px;
+	font-size: 55px;
 	text-transform: uppercase;
 }
 
@@ -153,6 +151,9 @@ html, body {
     line-height: 62px;
     margin-top: 0;
     text-transform: none;
+}
+.section-wb p {
+    text-align: start;
 }
 
 /*//////////////////////////////////////////////////////////*/
