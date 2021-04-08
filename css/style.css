@@ -44,13 +44,31 @@ html, body {
 /*//////////////////////////////////////////////////////////*/
 /*HOME*/
 
+@media (min-width: 100px) {
+    .main-banner {
+        background: url("../img/banner3.png");
+    }
+}
+
+@media (min-width: 600px) {
+    .main-banner {
+        background-image: url("../img/slide4.jpg");
+    }
+}
+
+@media (min-width: 900px) {
+    .main-banner {
+        background-image: url("../img/slide4.png");
+    }
+}
+
 .main-banner{
     position: relative;
     background-image: url("../img/slide4.jpg");
     background-size: cover;
     height: 100%;
     width: 100%;
-    margin:0;
+    margin:auto;
 
 }
 .main-banner{
