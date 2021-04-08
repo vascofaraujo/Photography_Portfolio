@@ -17,7 +17,7 @@ html, body {
 
 .header_area .main-menu .navbar{
     background-color: transparent;
-    padding-right: 2rem;
+    padding-right: 1rem;
 
 }
 .header_area .main-menu .nav-item .nav-link{
@@ -32,7 +32,7 @@ html, body {
     color: white;
 }
 .header_area .main-menu .navbar-brand{
-    padding-left: 2rem;
+    padding-left: 1rem;
     vertical-align: center;
 }
 
