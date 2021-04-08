@@ -46,7 +46,7 @@ html, body {
 
 @media (min-width: 100px) {
     .main-banner {
-        background-color: var(--primary-color);
+        background-color: url("../img/slide42.jpg");
     }
 }
 
