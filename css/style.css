@@ -17,13 +17,13 @@ html, body {
 
 .header_area .main-menu .navbar{
     background-color: transparent;
-    padding-right: 2rem;
+    padding-right: 4rem;
 
 }
 .header_area .main-menu .nav-item .nav-link{
     text-transform: uppercase;
     font-weight: 600;
-    padding: 1rem;
+    padding: 0.5rem;
     color: rgb(0, 0, 0);
 }
 
@@ -32,22 +32,38 @@ html, body {
     color: white;
 }
 .header_area .main-menu .navbar-brand{
-    padding-left: 2rem;
+    padding-left: 4rem;
     vertical-align: center;
 }
 
 .fixed-top.scrolled {
     background-color: var(--primary-color) !important;
-    transition: background-color 200ms linear;
+    transition: background-color 20ms linear;
   }
 
 /*//////////////////////////////////////////////////////////*/
 /*HOME*/
 
+@media (min-width: 100px) {
+    .main-banner {
+        background: url("../img/banner3.png");
+    }
+}
 
+@media (min-width: 600px) {
+    .main-banner {
+        background-image: url("../img/slide4.jpg");
+    }
+}
+
+@media (min-width: 900px) {
+    .main-banner {
+        background-image: url("../img/banner1.png");
+    }
+}
 .main-banner{
     position: relative;
-    background-image: url("../img/slide5.png") ;
+   /* background-image: url("../img/banner1.png") ;*/
     background-size: cover;
     height: 100%;
     
