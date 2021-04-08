@@ -46,7 +46,7 @@ html, body {
 
 @media (min-width: 100px) {
     .main-banner {
-        background: url("../img/banner3.png");
+        background-color: var(--primary-color);
     }
 }
 
@@ -58,13 +58,13 @@ html, body {
 
 @media (min-width: 900px) {
     .main-banner {
-        background-image: url("../img/slide4.png");
+        background-image: url("../img/slide4.jpg");
     }
 }
 
 .main-banner{
     position: relative;
-    background-image: url("../img/slide4.jpg");
+    /*background-image: url("../img/slide4.jpg");*/
     background-size: cover;
     height: 100%;
     width: 100%;
