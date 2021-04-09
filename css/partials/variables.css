@@ -11,7 +11,7 @@ html, body{
 /*CSS variables*/
 
 :root{
-    --primary-color: rgb(12, 173, 160);/*#c70c0c;*/
+    --primary-color: #c70c0c;
     --gradient-color: linear-gradient(90deg, #090030 0%, #090030 100%);
 
     --secondary-color: #000000; 
