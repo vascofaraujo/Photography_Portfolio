@@ -1,4 +1,4 @@
 # Portfolio
-Portfolio for my photographs in the making 
+Portfolio for my photographs
 
-https://vascofaraujo.github.io/Portfolio/
+http://www.vascoaraujo.com/
