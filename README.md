@@ -1,4 +1,5 @@
 # Portfolio
 Portfolio for my photographs
 
-https://www.vascoaraujo.com/
+This was my first web site and it was made just with HTML and CSS (and a bit of JS)
+
